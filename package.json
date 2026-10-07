@@ -1,0 +1,12 @@
+{
+  "name": "minimax-h3-cli",
+  "version": "1.0.0",
+  "description": "Unofficial command-line client for MiniMax H3 video generation over the async /v1/videos API",
+  "type": "module",
+  "bin": { "h3": "bin/h3.mjs" },
+  "files": ["bin", "lib"],
+  "engines": { "node": ">=18.3" },
+  "scripts": { "test": "node --test" },
+  "keywords": ["minimax-h3", "minimax", "hailuo", "video-generation", "text-to-video", "image-to-video", "cli"],
+  "license": "MIT"
+}
